@@ -28,5 +28,8 @@ width: 60%;
 footer{
     text-align: center;
 }
-
+.my-carousel{
+    width: 300px;
+    display: block;
+}
 
