@@ -1,0 +1,32 @@
+
+.banner{
+width: 60%;
+    display:block;
+  margin: auto auto 3em;
+  padding: 0 0 3em;
+
+}
+.principal{
+    width: 70%;
+    padding: 0 0 3em;
+    margin: 0 auto; 
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+.principal p{
+    margin: 0 0 .5em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
