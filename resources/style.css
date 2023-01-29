@@ -26,7 +26,11 @@ width: 60%;
 }
 
 footer{
-    text-align: center;
+    text-align:right;
+}
+.Contacto{
+    font-size: small;
+    color: #7a1b0c;
 }
 .my-carousel{
     width: 300px;
