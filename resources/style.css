@@ -1,4 +1,10 @@
 
+header{
+    background-color: darkred;
+}
+.Sombra {
+    box-shadow: 0 5px 5px black;
+}
 .banner{
 width: 60%;
     display:block;
