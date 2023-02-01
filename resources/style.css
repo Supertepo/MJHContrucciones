@@ -2,9 +2,7 @@
 header{
     background-color: darkred;
 }
-.row{
-    display: block;
-}
+
 .Sombra {
     box-shadow: 0 5px 5px black;
 }
