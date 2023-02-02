@@ -46,10 +46,6 @@ width: 60%;
 {
     text-align:right;
 }
-.my-carousel{
-    width: 300px;
-    display: block;
-}
 .proyectos{
     width: 80%;
     border: 3px solid #000000;
@@ -58,4 +54,10 @@ width: 60%;
     transform: translate(15%, 0);
     display: block;
 }
+:vertical {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
 
