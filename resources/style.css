@@ -58,6 +58,10 @@ width: 60%;
 .proyectos p{
     font-size: large;
 }
+.carousel-item{
+    width: 300;
+    height: 500;
+}
 .vertical {
     top: 50%;
     transform: translateY(-50%);
