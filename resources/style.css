@@ -3,6 +3,7 @@ header{
     background-color: darkred;
 }
 
+
 .Sombra {
     box-shadow: 0 5px 5px black;
 }
@@ -54,7 +55,10 @@ width: 60%;
     transform: translate(15%, 0);
     display: block;
 }
-:vertical {
+.proyectos p{
+    font-size: large;
+}
+.vertical {
     top: 50%;
     transform: translateY(-50%);
     bottom: auto;

@@ -35,49 +35,49 @@ function removeActiveClass() {
   button6.classList.remove("active");
 }
 
-button.addEventListener("click", function() {
-  for (let i = 0; i < divs.length; i++) {
-    divs[i].style.display = "flex";
-  }
-  removeActiveClass();
-  button.classList.toggle("active");
-});
-button22.addEventListener("click", function() {
-  for (let i = 0; i < divs.length; i++) {
-  divs[i].style.display = "flex";
-  }
-  for (let i = 0; i < divs.length; i++) {
-  if (divs[i].parentNode.id !== "2022") {
-  divs[i].style.display = "none";
-  }
-  }
-  removeActiveClass();
-  button22.classList.toggle("active");
+  button.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+      divs[i].style.display = "flex";
+    }
+    removeActiveClass();
+    button.classList.toggle("active");
   });
-button21.addEventListener("click", function() {
+  button22.addEventListener("click", function() {
     for (let i = 0; i < divs.length; i++) {
     divs[i].style.display = "flex";
     }
     for (let i = 0; i < divs.length; i++) {
-    if (divs[i].parentNode.id !== "2021") {
+    if (divs[i].parentNode.id !== "2022") {
     divs[i].style.display = "none";
     }
     }
     removeActiveClass();
-    button21.classList.toggle("active");
+    button22.classList.toggle("active");
     });
-button20.addEventListener("click", function() {
-  for (let i = 0; i < divs.length; i++) {
-  divs[i].style.display = "flex";
-  }
-  for (let i = 0; i < divs.length; i++) {
-  if (divs[i].parentNode.id !== "2020") {
-  divs[i].style.display = "none";
-  }
-  }
-  removeActiveClass();
-  button20.classList.toggle("active");
-  });
+  button21.addEventListener("click", function() {
+      for (let i = 0; i < divs.length; i++) {
+      divs[i].style.display = "flex";
+      }
+      for (let i = 0; i < divs.length; i++) {
+      if (divs[i].parentNode.id !== "2021") {
+      divs[i].style.display = "none";
+      }
+      }
+      removeActiveClass();
+      button21.classList.toggle("active");
+      });
+  button20.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2020") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button20.classList.toggle("active");
+    });
   button19.addEventListener("click", function() {
     for (let i = 0; i < divs.length; i++) {
     divs[i].style.display = "flex";
@@ -90,39 +90,136 @@ button20.addEventListener("click", function() {
     removeActiveClass();
     button19.classList.toggle("active");
     });
-    button18.addEventListener("click", function() {
+  button18.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2018") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button18.classList.toggle("active");
+    });
+  button17.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2017") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button17.classList.toggle("active");
+    });
+  button16.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2016") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button16.classList.toggle("active");
+    });
+  button15.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2015") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button15.classList.toggle("active");
+    });
+
+  button14.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2014") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button14.classList.toggle("active");
+    });
+  button13.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2013") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button13.classList.toggle("active");
+    });
+  button11.addEventListener("click", function() {
+    for (let i = 0; i < divs.length; i++) {
+    divs[i].style.display = "flex";
+    }
+    for (let i = 0; i < divs.length; i++) {
+    if (divs[i].parentNode.id !== "2011") {
+    divs[i].style.display = "none";
+    }
+    }
+    removeActiveClass();
+    button11.classList.toggle("active");
+    });
+    button10.addEventListener("click", function() {
       for (let i = 0; i < divs.length; i++) {
       divs[i].style.display = "flex";
       }
       for (let i = 0; i < divs.length; i++) {
-      if (divs[i].parentNode.id !== "2018") {
+      if (divs[i].parentNode.id !== "2010") {
       divs[i].style.display = "none";
       }
       }
       removeActiveClass();
-      button18.classList.toggle("active");
+      button10.classList.toggle("active");
       });
-      button17.addEventListener("click", function() {
+      button9.addEventListener("click", function() {
         for (let i = 0; i < divs.length; i++) {
         divs[i].style.display = "flex";
         }
         for (let i = 0; i < divs.length; i++) {
-        if (divs[i].parentNode.id !== "2017") {
+        if (divs[i].parentNode.id !== "2009") {
         divs[i].style.display = "none";
         }
         }
         removeActiveClass();
-        button17.classList.toggle("active");
+        button9.classList.toggle("active");
         });
-        button16.addEventListener("click", function() {
+        button7.addEventListener("click", function() {
           for (let i = 0; i < divs.length; i++) {
           divs[i].style.display = "flex";
           }
           for (let i = 0; i < divs.length; i++) {
-          if (divs[i].parentNode.id !== "2016") {
+          if (divs[i].parentNode.id !== "2007") {
           divs[i].style.display = "none";
           }
           }
           removeActiveClass();
-          button16.classList.toggle("active");
+          button7.classList.toggle("active");
           });
+          button6.addEventListener("click", function() {
+            for (let i = 0; i < divs.length; i++) {
+            divs[i].style.display = "flex";
+            }
+            for (let i = 0; i < divs.length; i++) {
+            if (divs[i].parentNode.id !== "2006") {
+            divs[i].style.display = "none";
+            }
+            }
+            removeActiveClass();
+            button6.classList.toggle("active");
+            });
